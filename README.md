@@ -1,4 +1,4 @@
-# Sobre
+# About
 
 A Study project made for traning the developement of a aplication With NextJs for a subscription based Posts site.
 
