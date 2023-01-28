@@ -1,38 +1,38 @@
 # Sobre
 
-O projeto tem como objetivo o estudo e desenvolvimento de uma aplicação em ReactJS com NextJS para listagem de posts e sistema de inscrição(subscription).
+A Study project made for traning the developement of a aplication With NextJs for a subscription based Posts site.
 
-A aplicação foi desenvolvida utilizando o framework NextJS aplicando os seguintes conceitos:
+The application was developed with Next applying the following concepts:
 <ul>
-  <li>consumo de API externas</li>
+  <li>Use External APIs</li>
   <li>API Root</li>
   <li>Server Side Rendering (SSR)</li> 
   <li>Static Site Generation (SSG)</li>
-  <li>pagamentos com o STRIPE</li>  
-  <li>NextAuth para o login</li>
-  <li>FaunaDB manter informações do usuários</li> 
-  <li>Prismic CMS para controle dos posts</li> 
+  <li>Payments with STRIPE</li>  
+  <li>NextAuth For authentication</li>
+  <li>FaunaDB to manage the </li> 
+  <li>Prismic CMS to manage Posts</li> 
 </ul>
 
-O projeto foi desenvolvido durante o Ignite da Rocketseat.
+The project was developed Ignite from Rocketseat.
 
-## Telas
+## Screens
 
 <b>Home:</b>
 
 ![nologin](https://user-images.githubusercontent.com/76182202/161833713-83d3190b-d432-4023-a54e-fdc6f07d5a10.png)
 
-<b>Lista de post:</b>
+<b>Post list:</b>
 ![login](https://user-images.githubusercontent.com/76182202/161833708-d1344c82-3020-4c54-bddf-b04c16cac796.png)
 
-<b>Post Usuário logado:</b>
+<b>Authenticated user Post:</b>
 ![post_loged](https://user-images.githubusercontent.com/76182202/161833729-b2aa0f85-e5ee-4026-b2d0-e36ae487d0a7.png)
 
-<b>Post usário não logado:</b>
+<b>Unauthenticated user Post</b>
 ![post_no_login](https://user-images.githubusercontent.com/76182202/161833749-07eb5c7c-e58e-442d-a4c6-6c68f7a7e6ff.png)
 
-## Tecnologias utilizadas
-Esse projeto foi desenvolvido utilizando as seguintes tecnologias abaixo:
+## Used Technologies
+The project utilises the following technologies:
 <ul>
   <li>ReactJS</li>
   <li>NextJS</li>
@@ -44,32 +44,32 @@ Esse projeto foi desenvolvido utilizando as seguintes tecnologias abaixo:
   <li>Prismic CMS</li>
 </ul>
 
-## Rode o projeto
-Necessário realizar a instalação do Stripe CLI: https://stripe.com/br.
+## Run project
+Install  Stripe CLI: https://stripe.com/br.
 
-(Opcional) instalar o yarn: https://yarnpkg.com/, pode se usar o npm.
+(Opcional) Install yarn: https://yarnpkg.com/, can use npm.
 
-Criar conta e configurar os serviços externos:
+Create a account and configure the client in:
 <ul>
   <li>Stripe</li>
   <li>FaunaDB</li>
   <li>Prismic CMS</li>
 </ul>
 
-Copie o repositório para a pasta desejada com o seguinte comando:
+Copy the project to the desired folder with the following command:
 
 ### `git clone https://github.com/Thiago-kon/ignews`
-Instale as depedencias com:
+Install dependences with:
 
 ### `yarn install`
 
-Em seguida, executá-lo em localhost:
+after, run the project on localhost:
 
 ```
-# Execute stripe listen para ouvir eventos do webhook
+# run stripe listen to listen the events of the webhook
 $ stripe listen --forward-to localhost:3000/api/webhooks 
 
-# Para iniciar a aplicação
+# Iniciate App with:
 $ yarn dev
 ```
 
