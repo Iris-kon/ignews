@@ -2,6 +2,8 @@
 
 A Study project made for traning the developement of a aplication With NextJs for a subscription based Posts site.
 
+access the [app](https://ignews-fawn-kappa.vercel.app)
+
 The application was developed with Next applying the following concepts:
 <ul>
   <li>Use External APIs</li>
