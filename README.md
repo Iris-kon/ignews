@@ -60,7 +60,7 @@ Create a account and configure the client in:
 
 Copy the project to the desired folder with the following command:
 
-### `git clone https://github.com/Thiago-kon/ignews`
+### `git clone https://github.com/Iris-kon/ignews`
 Install dependences with:
 
 ### `yarn install`
